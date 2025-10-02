@@ -1,0 +1,5 @@
+C:\Users\Anubhav\Desktop\issues_manager_house\IssuesManager\obj\Debug\DfmAddIn.csproj.AssemblyReference.cache
+C:\Users\Anubhav\Desktop\issues_manager_house\IssuesManager\obj\Debug\Views\IssuesControl.g.cs
+C:\Users\Anubhav\Desktop\issues_manager_house\IssuesManager\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Anubhav\Desktop\issues_manager_house\IssuesManager\obj\Debug\Mechly.DfmAddIn_MarkupCompile.cache
+C:\Users\Anubhav\Desktop\issues_manager_house\IssuesManager\obj\Debug\Mechly.DfmAddIn_MarkupCompile.lref

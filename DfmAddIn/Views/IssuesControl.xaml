@@ -1,0 +1,42 @@
+﻿<UserControl x:Class="Mechly.DfmAddIn.Views.IssuesControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:vm="clr-namespace:Mechly.DfmAddIn.ViewModels"
+             xmlns:conv="clr-namespace:Mechly.DfmAddIn.Converters"
+             mc:Ignorable="d" 
+             d:DataContext="{x:Type vm:DfmIssuesVM}"
+             d:DesignHeight="300" d:DesignWidth="300">
+
+    <UserControl.Resources>
+        <conv:IssueForegroundConverter x:Key="issueForegroundConv"/>
+    </UserControl.Resources>
+
+    <Grid>
+        <ListView Grid.Row="1" ItemsSource="{Binding Path=Issues}" SelectedItem="{Binding Path=ActiveIssue}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Foreground="{Binding Path=Severity, Converter={StaticResource issueForegroundConv}}"
+                               Text="{Binding Path=Description}"
+                               TextWrapping="Wrap"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <Grid Grid.RowSpan="2" Background="White" Visibility="Collapsed">
+            <TextBlock Text="Open a part and rebuild (Ctrl+B) to see DFM issues" FontSize="20" TextAlignment="Center"
+                       TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center">
+            </TextBlock>
+            <Grid.Style>
+                <Style TargetType="{x:Type Grid}">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding}" Value="{x:Null}">
+                            <Setter Property="Visibility" Value="Visible"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Grid.Style>
+        </Grid>
+    </Grid>
+</UserControl>

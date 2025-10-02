@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Anubhav\\Desktop\\issues_manager_house\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D4B99A-2FC6-4ECA-B087-8144F479FA4B}|IssuesManager\\DfmAddIn.csproj|c:\\users\\anubhav\\desktop\\issues_manager_house\\issuesmanager\\dfmanalysisengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D4B99A-2FC6-4ECA-B087-8144F479FA4B}|IssuesManager\\DfmAddIn.csproj|solutionrelative:issuesmanager\\dfmanalysisengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D4B99A-2FC6-4ECA-B087-8144F479FA4B}|IssuesManager\\DfmAddIn.csproj|c:\\users\\anubhav\\desktop\\issues_manager_house\\issuesmanager\\dfmdocumenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D4B99A-2FC6-4ECA-B087-8144F479FA4B}|IssuesManager\\DfmAddIn.csproj|solutionrelative:issuesmanager\\dfmdocumenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DfmDocumentHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Anubhav\\Desktop\\issues_manager_house\\IssuesManager\\DfmDocumentHandler.cs",
+              "RelativeDocumentMoniker": "IssuesManager\\DfmDocumentHandler.cs",
+              "ToolTip": "C:\\Users\\Anubhav\\Desktop\\issues_manager_house\\IssuesManager\\DfmDocumentHandler.cs",
+              "RelativeToolTip": "IssuesManager\\DfmDocumentHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T15:43:30.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DfmAnalysisEngine.cs",
+              "DocumentMoniker": "C:\\Users\\Anubhav\\Desktop\\issues_manager_house\\IssuesManager\\DfmAnalysisEngine.cs",
+              "RelativeDocumentMoniker": "IssuesManager\\DfmAnalysisEngine.cs",
+              "ToolTip": "C:\\Users\\Anubhav\\Desktop\\issues_manager_house\\IssuesManager\\DfmAnalysisEngine.cs",
+              "RelativeToolTip": "IssuesManager\\DfmAnalysisEngine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T15:43:23.472Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
